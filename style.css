@@ -81,3 +81,10 @@ button {
   background-color: #00bac4;
   border: none;
 }
+
+.information-text {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
