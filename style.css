@@ -16,6 +16,7 @@ body {
   display: flex;
   justify-content: space-around;
   gap: 50em;
+  padding-top: 30px;
   margin-bottom: 40px;
 }
 
@@ -24,6 +25,7 @@ body {
   flex-direction: column;
   max-width: 600px;
   margin-left: 6em;
+  gap: 25px;
 }
 
 .header-bottom {
@@ -109,6 +111,7 @@ button {
 }
 
 .cards p {
+  margin-top: 10px;
   max-width: 250px;
   color: #1f2937;
 }
@@ -116,8 +119,7 @@ button {
 .quote-section {
   background-color: #e5e7eb;
   padding-top: 100px;
-  padding-bottom: 70px;
-  /* text-align: center; */
+  padding-bottom: 100px;
 }
 
 .quote p{
@@ -133,4 +135,38 @@ button {
   margin-right: 280px;
   font-weight: 450;
   font-size: 22px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+.cta {
+  display: flex;
+  background-color: #00bac4;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.cta-left {
+  display: flex;
+  flex-direction: column;
+  color: #e5e7eb;
+  gap: 5px;
+}
+
+.cta-left h3, p {
+  margin: 0;
+}
+
+.cta-right button {
+  margin-left: 100px;
+  margin-right: 25px;
+  margin-top: 5px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  width: 100px;
+  border-width: 3px;
 }
