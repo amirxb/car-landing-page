@@ -82,9 +82,31 @@ button {
   border: none;
 }
 
+.content {}
+
 .information-text {
   text-align: center;
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+}
+
+.cards {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.cards img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px rgb(0, 0, 0);
+}
+
+.cards p {
+  max-width: 250px;
+  color: #1f2937;
 }
