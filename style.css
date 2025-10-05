@@ -77,11 +77,12 @@ h1 {
 
 button {
   padding: 10px;
-  max-width: 100px;
+  width: 100px;
   border-radius: 5px;
   color:#e5e7eb;
   background-color: #00bac4;
   border: none;
+  cursor: pointer;
 }
 
 .cards-section {
@@ -167,6 +168,16 @@ button {
   margin-top: 5px;
   border-style: solid;
   border-color: #e5e7eb;
-  width: 100px;
   border-width: 3px;
+}
+
+.footer-section {
+  background-color: #1f2937;
+  padding: 30px;
+}
+
+.footer {
+  color: #e5e7eb;
+  text-align: center;
+  font-weight: 300;
 }
