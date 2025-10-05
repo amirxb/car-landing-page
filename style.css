@@ -82,7 +82,9 @@ button {
   border: none;
 }
 
-.content {}
+.cards-section {
+  padding-bottom: 80px;
+}
 
 .information-text {
   text-align: center;
@@ -109,4 +111,26 @@ button {
 .cards p {
   max-width: 250px;
   color: #1f2937;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  /* text-align: center; */
+}
+
+.quote p{
+  font-size: 30px;
+  font-weight: 300;
+  color: #1f2937;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.quote .author {
+  text-align: right;
+  margin-right: 280px;
+  font-weight: 450;
+  font-size: 22px;
 }
